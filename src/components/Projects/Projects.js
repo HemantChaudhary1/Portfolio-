@@ -9,6 +9,8 @@ import chatify from "../../Assets/Projects/Student_attendance.png";
 import suicide from "../../Assets/Projects/CryptoTracker.jpeg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
+//projects section
+
 function Projects() {
   return (
     <Container fluid className="project-section">
