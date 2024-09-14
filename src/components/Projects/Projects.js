@@ -3,11 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/blog.png";
+import Typing from "../../Assets/Projects/typingApp.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/CampusFood.jpeg";
 import chatify from "../../Assets/Projects/Student_attendance.png";
-import suicide from "../../Assets/Projects/CryptoTracker.jpeg";
+import crypto from "../../Assets/Projects/cryptoPhoto.jpeg";
 import bitsOfCode from "../../Assets/Projects/image.png";
+import todo from "../../Assets/Projects/TODOAPP.jpg";
 
 //projects section
 
@@ -58,7 +60,18 @@ efficiency by 30%.
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Typing}
+              isBlog={false}
+              title="Typing Master"
+              description="Developed a web-based typing speed test to measure Words Per Minute (WPM) and Characters Per Minute (CPM). Created a responsive frontend with HTML, CSS, and JavaScript, featuring real-time feedback, dynamic timer, error correction, and restart functionality for enhanced typing accuracy and practice. Tech stack: HTML, CSS, JavaScript"
+              ghLink="https://hemantchaudhary1.github.io/Typing-Tester/"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
               isBlog={false}
               title="TODO App"
               description="Is an TODO app in which you can track your daily tasks build frontend using Reactjs and Backend using Nodejs,express,MongoDb."
@@ -70,7 +83,7 @@ efficiency by 30%.
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={crypto}
               isBlog={false}
               title="Crypto-Tracker"
               description="A CryptoCurrency-Tracker which tracks your coin Realtime Information build and Gives all details of your coin using Charts using ReactJs, Chart.js, Tailwind CSS ."
@@ -84,7 +97,7 @@ efficiency by 30%.
               imgPath={bitsOfCode}
               isBlog={false}
               title="TicTacToe.com"
-              description="A fun game build using HTML,CSS and JavaScript"
+              description="Developed TicTacToe game, an interactive and visually appealing game using HTML, CSS, and JavaScript, offering an enjoyable and engaging user experience."
               ghLink="https://github.com/HemantChaudhary1/Tic-Tac-Toe"
               demoLink="https://hemantchaudhary1.github.io/Tic-Tac-Toe/"
             />

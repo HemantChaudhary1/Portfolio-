@@ -16,6 +16,9 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiMysql,
+  SiJsonwebtokens,
+  SiExpress,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -39,6 +42,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJsonwebtokens />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
      
      
